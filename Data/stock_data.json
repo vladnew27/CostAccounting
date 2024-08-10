@@ -1,0 +1,17 @@
+[
+    {
+        "Shares": 100,
+        "PricePerShare": 20.0,
+        "PurchaseDate": "2024-01-01"
+    },
+    {
+        "Shares": 200,
+        "PricePerShare": 30.0,
+        "PurchaseDate": "2024-02-01"
+    },
+    {
+        "Shares": 150,
+        "PricePerShare": 40.0,
+        "PurchaseDate": "2024-03-01"
+    }
+]
