@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostAccounting", "CostAccounting.csproj", "{E488ED28-05F9-4756-8595-40C7833E95FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostAccounting", "Application\CostAccounting.csproj", "{E488ED28-05F9-4756-8595-40C7833E95FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{2F06778D-7E3D-42F9-8432-41468CAA5D78}"
 EndProject
