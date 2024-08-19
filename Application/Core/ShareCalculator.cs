@@ -22,7 +22,7 @@ namespace CostAccounting.Core
         public int GetRemainingShares(int amountForSale)
         {
             if (amountForSale <= 0){
-                throw new ArgumentException("amountForSale should be positive");
+                throw new ArgumentOutOfRangeException(nameof(amountForSale), "amountForSale should be positive");
             }
 
             _lots ??= _stockData.GetStockLots();
