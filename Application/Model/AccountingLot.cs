@@ -7,14 +7,8 @@ namespace CostAccounting.Models
     {
         public Lot Lot {get;}
         public int AmountSold {get;}
-
-        public AccountingLot(Lot lot)
-        {
-            Lot = lot;
-            AmountSold = 0;
-        }
         
-        public AccountingLot(Lot lot, int amountSold)
+        public AccountingLot(Lot lot, int amountSold = 0)
         {
             if (amountSold > lot.Shares){
                 throw new ArgumentException("amountSold can not be grater than lot.Shares");
